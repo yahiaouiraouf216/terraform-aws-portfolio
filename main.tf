@@ -44,3 +44,9 @@ module "security" {
   vpc_id     = module.networking.vpc_id
   admin_cidr = var.admin_cidr
 }
+
+module "compute" {
+  source            = "./modules/compute"
+  subnet_id         = module.networking.public_subnet_id
+  security_group_id = module.security.security_group_id
+}
