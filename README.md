@@ -29,12 +29,12 @@ The goal of this project is to progressively build a production-like AWS infrast
 - [x] SSH restricted to administrator IP
 - [x] HTTP access
 - [x] EC2 instance
-- [ ] EC2 outputs
-- [ ] Second Availability Zone
-- [ ] Second public subnet
-- [ ] Second private subnet
-- [ ] Elastic IP
-- [ ] NAT Gateway
+- [x] EC2 outputs
+- [x] Second Availability Zone
+- [x] Second public subnet
+- [x] Second private subnet
+- [x] Elastic IP
+- [x] NAT Gateway
 - [ ] Private Route Tables
 - [ ] Private EC2 without public IP
 - [ ] Private subnet Internet connectivity test
