@@ -49,4 +49,5 @@ module "compute" {
   source            = "./modules/compute"
   subnet_id         = module.networking.public_subnet_a_id
   security_group_id = module.security.security_group_id
+  private_subnet_id = module.networking.private_subnet_a_id
 }

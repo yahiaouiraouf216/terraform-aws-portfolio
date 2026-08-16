@@ -3,6 +3,6 @@ variable "vpc_id" {
 }
 
 variable "admin_cidr" {
-  type = string
+  type        = string
   description = "CIDR block allowed to access EC2 instances via SSH"
 }
